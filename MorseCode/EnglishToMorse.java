@@ -8,7 +8,7 @@ public class EnglishToMorse {
     public static HashMap<String, Character> mtoe = new HashMap<>();
 
     public static void main(String[] args) {
-        System.out.println("\u001B[32m" + "--- MORSE CODE SYSTEM ---" + "\u001B[37m");
+        System.out.println("\u001B[35m" + "--- MORSE CODE SYSTEM ---" + "\u001B[37m");
         Scanner input = new Scanner(System.in);
 
         System.out.print("Encryption / Decryption (enter (e or d)) : ");
